@@ -396,6 +396,10 @@ th {
   padding: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 /*
 $sm: "screen and (min-width: 375px)";
 $md-600: "screen and (min-width: 600px)";
@@ -414,6 +418,38 @@ $lg: "screen and (min-width: 960px)";
 
 .clearfix {
   *zoom: 1;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+nav {
+  color: #181611;
+}
+
+.nav-main {
+  width: 100%;
+  height: 10%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 15%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #181611;
+  margin-left: 7%;
+  overflow: hidden;
 }
 
 /* 

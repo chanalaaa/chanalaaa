@@ -3,8 +3,6 @@
 @import 'compass';
 @import 'font-face';
 
-
-
 /*
 $sm: "screen and (min-width: 375px)";
 $md-600: "screen and (min-width: 600px)";
@@ -14,17 +12,19 @@ $lg: "screen and (min-width: 960px)";
 
 .clearfix:before,
 .clearfix:after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
-  clear: both;
+    clear: both;
 }
 
 .clearfix {
-  *zoom: 1;
+    *zoom: 1;
 }
+
+$mainblack: #181611;
 
 @mixin bg_img($uri) {
     background-image: url($uri);
@@ -35,7 +35,11 @@ $lg: "screen and (min-width: 960px)";
     height: 100%;
 }
 
-#wrapper {}
+#wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
 @import 'header';
 @import 'content';
