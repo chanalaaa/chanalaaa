@@ -5,6 +5,8 @@
         <div class="box-w_center"></div>
         <div class="box-w_top"></div>
         <div class="box-w_right"></div>
+        <div class="box-b_top"></div>
+        <div class="box-b_bottom"></div>
     </div>
 </div>
 <!-- END CONTENT ************************** -->

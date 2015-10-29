@@ -14,7 +14,7 @@
      width: 100%;
      height: 100%;
      background-color: $mainblack;
-     margin-left: 7%;
+     margin-left: 6%;
  }
  
  .box-w_center {
@@ -46,4 +46,22 @@
      bottom: 27%;
  }
  
+ .box-b_top {
+     width: 8%;
+     height: 25%;
+     background-color: $mainblack;
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ 
+ .box-b_bottom {
+     width: 15%;
+     height: 11%;
+     background-color: $mainblack;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     z-index: 11;
+ }
  // End Content //////////////////////////////////
