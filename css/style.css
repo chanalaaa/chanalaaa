@@ -437,6 +437,7 @@ nav {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 10;
 }
 
 ul li {
@@ -444,12 +445,51 @@ ul li {
   margin-right: 15%;
 }
 
-.main {
+.section {
+  position: relative;
+}
+
+.main,
+.box-bg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box-main {
   width: 100%;
   height: 100%;
   background-color: #181611;
   margin-left: 7%;
-  overflow: hidden;
+}
+
+.box-w_center {
+  width: 20%;
+  height: 25%;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.box-w_top {
+  width: 15%;
+  height: 29%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.box-w_right {
+  width: 3%;
+  height: 16%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 27%;
 }
 
 /* 
