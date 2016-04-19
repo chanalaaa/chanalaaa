@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Chanalaaa</title>
     <?php include("views/include.php"); ?>
 </head>
 
